@@ -1,0 +1,55 @@
+/* 1. Cambia el tipo de letra de los parrafos a 'Segoe UI' */
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* 2. Alinea todos los titulos al centro y ponles un color "Aqua" */
+h1, h2, h3{
+    text-align: center;
+    background-color: aqua;
+}
+/* 3. El subtitulo "PILOTO DE MOTOCICLISMO" alinealo al centro y ponle un estilo de fuente "Italic" */
+.Texto{
+    text-align: center;
+    font-style: italic;
+}
+/* 4. A las imagenes ponles un width 50% y un margin left con 350px */
+img{
+    width: 50%;
+    margin-left: 350px;
+}
+/* 5. En el apartado de Palmares y Biografia hay crearle un borde con color azul y de 55px */
+.border{
+    padding: 5%;
+    border: solid rgb(9,0,139)1px;
+    border-radius: 55px;
+}
+/* 6. Para la tabla en la etiqueta table tiene que tener un width 100% y con un borde 2px con color negro */
+table{
+    width: 100%;
+    border-radius: solid black 2px;
+}
+/* 7. El texto de la tabla tienen que estar alineados al centro */
+table, td{
+    border-collapse: separate;
+    text-align: center;
+    margin: 20px auto;
+    border: solid black;
+}
+/* 8. Los titulos de la tabla tienen que estar con el color de fondo negro */
+th{
+    padding: 10px;
+    border-radius: 1px solid #333;
+    border: solid black 1px;
+    color:white;
+    background-color: #333;
+    }
+}
+/* 9. Ponle al body un margin left y un margin right de 80px */
+body{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+/* 10. Pon de color de fondo a la pagina antiquewhite. */
+body{
+    background-color: antiquewhite;
+}
